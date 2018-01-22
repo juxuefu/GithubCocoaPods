@@ -16,7 +16,7 @@ class Person: NSObject {
     init(name: String,age:Int) {
         self.name = name
         self.age = age
-        super.init()
+        //super.init()
     }
-    
+    //模拟更改代码提交 
 }

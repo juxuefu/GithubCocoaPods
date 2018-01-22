@@ -13,6 +13,8 @@
 		512A70B52015784700D92B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 512A70B42015784700D92B4D /* Assets.xcassets */; };
 		512A70B82015784700D92B4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 512A70B62015784700D92B4D /* LaunchScreen.storyboard */; };
 		512A70C02015786E00D92B4D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512A70BF2015786E00D92B4D /* Person.swift */; };
+		512A70C220157B5400D92B4D /* 在Github创建Repository.png in Resources */ = {isa = PBXBuildFile; fileRef = 512A70C120157B5400D92B4D /* 在Github创建Repository.png */; };
+		512A70C420157B6A00D92B4D /* 说明.md in Resources */ = {isa = PBXBuildFile; fileRef = 512A70C320157B6A00D92B4D /* 说明.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		512A70B72015784700D92B4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		512A70B92015784700D92B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		512A70BF2015786E00D92B4D /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		512A70C120157B5400D92B4D /* 在Github创建Repository.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "在Github创建Repository.png"; sourceTree = "<group>"; };
+		512A70C320157B6A00D92B4D /* 说明.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "说明.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		512A70AC2015784700D92B4D /* TestGithubCocoaPods */ = {
 			isa = PBXGroup;
 			children = (
+				512A70C320157B6A00D92B4D /* 说明.md */,
+				512A70C120157B5400D92B4D /* 在Github创建Repository.png */,
 				512A70AD2015784700D92B4D /* AppDelegate.swift */,
 				512A70AF2015784700D92B4D /* ViewController.swift */,
 				512A70BF2015786E00D92B4D /* Person.swift */,
@@ -126,8 +132,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				512A70C420157B6A00D92B4D /* 说明.md in Resources */,
 				512A70B82015784700D92B4D /* LaunchScreen.storyboard in Resources */,
 				512A70B52015784700D92B4D /* Assets.xcassets in Resources */,
+				512A70C220157B5400D92B4D /* 在Github创建Repository.png in Resources */,
 				512A70B32015784700D92B4D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
